@@ -11,19 +11,6 @@ A fast, modern, and responsive developer portfolio website built using **React**
 - 🔧 JavaScript (ES6+)
 - 💡 Optional: Framer Motion for animations
 
-## 📸 Screenshots
-
-### 🏠 Home Page  
-![Home Page](sampleimage/sample1.png)
-![Home Page](sampleimage/sample2.png)
-
-### 🧰 other section  
-![Section](sampleimage/sample3.png)
-![Section](sampleimage/sample4.png)
-![Section](sampleimage/sample5.png)
-![Section](sampleimage/sample6.png)
-![Section](sampleimage/sample7.png)
-
 ## ✨ Features
 
 - Responsive and mobile-friendly design
@@ -63,22 +50,6 @@ A fast, modern, and responsive developer portfolio website built using **React**
 ```bash
 npm run build
 ```
-
-## 📤 Deploying
-
-You can deploy the site using platforms like:
-
-* [Vercel](https://vercel.com/)
-* [Netlify](https://www.netlify.com/)
-* [GitHub Pages](https://pages.github.com/) (with additional config)
-
-## 📬 Contact
-
-Feel free to connect with me through the Contact section on the site or via [LinkedIn](https://linkedin.com/in/codewithkinu) or [Email](mailto:codeithkinu@gmail.com).
-
----
-
-**Made with ❤️ by Sahil  using React, Vite & Tailwind CSS**
 
 
 ## 📬 here is privious homepage.. -----
