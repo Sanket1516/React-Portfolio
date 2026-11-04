@@ -1,55 +1,48 @@
-# 💼 Developer Portfolio – React + Vite + Tailwind
-## ⭐ Star this repo if you like it!
+# Developer Portfolio: React + Vite + Tailwind
 
+A responsive single-page developer portfolio with an animated starfield background, welcome screen and sections for About, Skills, Approach, Projects, Testimonials and Contact.
 
-A fast, modern, and responsive developer portfolio website built using **React**, **Vite**, and **Tailwind CSS**. Designed to showcase your projects, skills, and contact information in a clean, professional format.
+## Tech stack
 
-## 🚀 Tech Stack
+- React 18, React Router 7
+- Vite 5
+- Tailwind CSS 4
+- Framer Motion
+- Contact form posts to [Formspree](https://formspree.io)
 
-- ⚛️ React (with Vite for fast dev/build)
-- 💨 Tailwind CSS (utility-first styling)
-- 🔧 JavaScript (ES6+)
-- 💡 Optional: Framer Motion for animations
+## Project structure
 
-## ✨ Features
-
-- Responsive and mobile-friendly design
-- Easy customization of content and sections
-- Project and skill sections configured via simple data files
-- Smooth navigation and clean layout
-- Deployed and optimized using Vite
-
-## 🛠️ Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/react-vite-portfolio.git
-   cd react-vite-portfolio
-   ````
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**
-
-   ```bash
-   npm run dev
-   ```
-
-4. **Customize your content**
-
-   * Update `/src/data/projects.js` with your projects
-   * Update `/src/data/skills.js` with your tech stack
-   * Modify `/src/components` and `/src/pages` for layout or section changes
-
-## 🏗️ Build for Production
-
-```bash
-npm run build
+```
+client/
+├── index.html
+├── vite.config.js
+└── src/
+    ├── main.jsx, App.jsx
+    ├── pages/            Home, NotFound
+    ├── components/       Navbar, Hero, About, Skills, MyApproach,
+    │                     Projects, Testimonial, Contact, Footer,
+    │                     StarBackground, WelcomeScreen
+    │   └── ui/           toast, toaster
+    ├── hooks/            use-toast
+    └── lib/              utils
 ```
 
-};
-   ```
+## Getting started
+
+Requires Node.js 18+.
+
+```bash
+git clone https://github.com/Sanket1516/React-Portfolio.git
+cd React-Portfolio/client
+npm install
+npm run dev       # development server
+npm run build     # production build in client/dist
+```
+
+## Customising
+
+Content is written directly in the section components under `client/src/components/` (for example `ProjectsSection.jsx` and `SkillsSection.jsx`). The contact form endpoint is set in `ContactSection.jsx`; replace it with your own Formspree form ID.
+
+## Author
+
+Sanket Mali · [GitHub](https://github.com/Sanket1516)
