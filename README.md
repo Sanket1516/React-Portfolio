@@ -2,6 +2,29 @@
 
 A responsive single-page developer portfolio with an animated starfield background, welcome screen and sections for About, Skills, Approach, Projects, Testimonials and Contact.
 
+<p align="center">
+  <img src="screenshots/hero.png" alt="Portfolio hero section" width="880" />
+</p>
+
+## Screenshots
+
+| About | Skills |
+|:---:|:---:|
+| <img src="screenshots/about.png" alt="About section" width="430" /> | <img src="screenshots/skills.png" alt="Skills with category filters" width="430" /> |
+| **Projects** | **Testimonials** |
+| <img src="screenshots/projects.png" alt="Project portfolio with filters" width="430" /> | <img src="screenshots/testimonials.png" alt="Testimonials" width="430" /> |
+| **Contact** | **Mobile** |
+| <img src="screenshots/contact.png" alt="Contact form" width="430" /> | <img src="screenshots/mobile.png" alt="Mobile view" width="200" /> |
+
+## Features
+
+- Animated welcome screen and starfield background
+- Typing code-editor hero with quick stats and floating dock navigation
+- Light/dark theme toggle and optional background music
+- Filterable skills (Frontend / Backend / Tools) and projects (Web App, Database, Cloud, IoT)
+- Working contact form via Formspree with toast notifications
+- Fully responsive, animated with Framer Motion
+
 ## Tech stack
 
 - React 18, React Router 7
